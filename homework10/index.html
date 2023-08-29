@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework10</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="katalog">
+                <img src="./menu-outline.svg">
+                <h1>Каталог</h1>
+            </div>
+    
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Торты</a></li>
+                    <li><a href="#">Десерты в баночках</a></li>
+                    <li><a href="#">Покупателям</a></li>
+                </ul>
+            </div>
+    
+            <div class="toplogo">
+                <h1>NapoleonCake</h1>
+                <div class="contacts">
+                    <h3>8 800 200-95-70</h3>
+                    <h3>Бесплатный звонок по Москве и МО</h3>
+                </div>
+            </div>
+    
+            <div class="navbar2">
+                <a href="#"><img src="./search-outline.svg" alt=""></a>
+                <a href="#"><img src="./person-outline.svg" alt=""></a>
+                <a href="#"><img src="./heart-outline.svg" alt=""></a>
+                <a href="#"><img src="./bag-outline.svg" alt=""></a>
+            </div>
+        </header>
+
+        <div class="navigation">
+            <h1>Главная</h1>
+            <img src="./Vector.svg" alt="">
+            <h1>Оформление заказа</h1>
+        </div>
+
+        <div class="order_form">
+            <div class="order_form1">
+                <h1 class="title">Оформление заказа</h1>
+            
+            <div class="personal_inf">
+                <h1>Личные данные</h1>
+                <input type="text" id="name" placeholder="Имя">
+                <input type="tel" id="phone" placeholder="Телефон">
+            </div>
+            
+            <div class="shipping_information">
+                <h1>Информация по доставке</h1>
+
+                <div class="firstline">
+                    <label for="delivery1">Курьер</label>
+                    <input type="radio" id="delivery1" name="delivery">
+                    <label for="delivery2">Самовывоз</label>
+                    <input type="radio" id="delivery2" name="delivery">
+
+                <select name="region" id="region" >
+                    <option value="0">Район доставки</option>
+                    <option value="1">Moskva</option>
+                    <option value="2">Vladivastok</option>
+                    <option value="3">Sankt-Peterburg</option>
+                </select>
+                </div>
+
+                <div class="secondline">
+                    <input type="text" name="street" placeholder="Улица">
+                    <input type="number" name="home" placeholder="Дом" min="1">
+                    <input type="number" name="etrance" placeholder="Под." min="1">
+                    <input type="number" name="floor" placeholder="Эт." min="1">
+                    <input type="number" name="number" placeholder="Кв." min="1">
+                </div>
+
+                <div class="thirdline">
+                <input type="text" name="comment" placeholder="Комментарии">
+                </div>
+
+                <div class="fourthline">
+                    <select name="date" id="date" >
+                        <option value="0">Дата доставки</option>
+                        <option value="1">08.08.2023</option>
+                        <option value="2">10.08.2023</option>
+                        <option value="3">11.08.2023</option>
+                    </select>
+    
+                    <select name="time" id="time" >
+                        <option value="0">10:00-15:00, 450 ₽</option>
+                        <option value="1">15:00-17:00, 350 ₽</option>
+                        <option value="2">17:00-19:00, 300 ₽</option>
+                        <option value="3">19:00-22:00, 250 ₽</option>
+                    </select>
+                </div>
+            </div>
+            </div>
+            <div class="aside-right">
+                <div class="card-wrapper">
+                    <p class="card-title">Способ оплаты</p>
+
+                    <div class="card-btn">
+                        <button class="btn-keeper1">Наличными</button>
+                        <button class="btn-keeper2">Картой онлайн</button>
+                    </div>
+                    <p class="bonuses">Мои бонусы</p>
+                    <div class="payment-ctrl">
+                        <div>
+                            <p class="price-1">
+                                200 ₽
+                            </p>
+                        </div>
+                        <div>
+                            <button class="payment-btn">Оплатить бонусами</button>
+                        </div>
+                    </div>
+
+                    <div class="price-ctrtl">
+                        <ul>
+                            <li>Подарим бонусов:</li>
+                            <li>Доставка:</li>
+                            <li class="total">Всего:</li>
+                        </ul>
+                        <ul>
+                            <li>450 ₽</li>
+                            <li>450 ₽</li>
+                            <li class="amount">3 200 ₽</li>
+                        </ul>
+                    </div>
+                    <button class="final-btn">Оформить заказ</button>
+                    <p class="final-p">Нажимая на кнопку «оплатить заказ», я принимаю условия публичной оферты и политики конфиденциальности</p>
+                </div>
+           </div>
+        </div>
+            
+
+        
+    </div>
+</body>
+</html>
